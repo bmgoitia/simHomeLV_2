@@ -1,0 +1,511 @@
+@font-face{
+  font-family: TiemposText-Bold;
+  src: url('TiemposText-Bold.woff'), url('TiemposText-Bold.woff') format('woff');
+}
+
+@font-face{
+  font-family: TiemposText-Regular;
+  src: url('TiemposText-Regular.woff'), url('TiemposText-Regular.woff') format('woff');
+}
+
+
+body{
+  width: 100%;
+  font-family: 'TiemposText-Bold', serif;
+  line-height: 30px;
+  letter-spacing: -1px;
+}
+
+.flexbox {
+  display: flex;
+}
+.hidden {
+  display: none;
+}
+
+
+
+
+
+/* NEW STYLES */
+
+
+#container{
+  width: 100%;
+  
+}
+
+#contentHomeLV{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+
+/* BANNER */
+
+#bannerLV{
+  width: 100%;
+  max-height: 76px;
+  display: grid;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+  grid-template-columns: 1fr 3fr 1fr;
+  background-color: #001c4c;
+  
+}
+
+
+#logo{
+  text-align: center;
+}
+
+svg{
+  max-width: 350px;
+  max-height: 40px;
+}
+
+
+
+
+
+
+/* HOME CONTENT */
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+.premium{
+  float:right;
+
+}
+
+.card-body .premium{
+  margin-top: -35px;
+}
+
+
+.titAp{
+  font-size: 2rem;
+  line-height: 30px;
+}
+
+
+.subtAp{
+  font-family: 'TiemposText-Regular', serif;
+  line-height: 17px;
+  font-size: .92rem;
+}
+
+
+/* OPENINGS */
+
+.sel{
+  display: inline-block;
+  margin-left:20px;
+}
+
+.sel label{
+  padding-left: 7px;
+}
+
+
+.plant2i, .esp, .full, .extraBlock3{
+  display: none;
+}
+
+.fotoI .imgPieceText{
+  width: 90%;
+  padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 5%;
+
+}
+
+.fotoI input{
+  margin-right: 10px;
+  margin-bottom: 16px;
+}
+
+span.premium{
+  margin-top: 7px;
+  margin-right: 5px;
+}
+
+
+
+/* APERTURA ESPECIAL */
+
+
+#imgEsp{
+  width: 100%;
+}
+
+
+
+/* End of OPENINGS */
+
+
+.titAp{
+  padding-top:10px;
+}
+
+
+#ap2d .col-8, .imgPiece{
+  background-image:url('../img/blurry7.jpg');
+}
+
+#ap2 .imgPiece{
+  background-image:url('../img/blurry24.jpg');
+}
+
+#Sel .imgPiece{
+  background-image:url('../img/blurry9.jpg');
+}
+
+.fullImg img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.textFull{
+  margin-top:25px;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 45px;
+}
+
+.textFull2{
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: serif;
+  line-height: 20px;
+  font-size: 1.1rem;
+}
+
+
+.imgPiece{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+
+#Sel .imgPiece{
+  align-items: flex-start;
+}
+
+
+
+
+.imgPieceText{
+  padding: 0 7%;
+  color: #fff;
+  font-size: 1.45rem;
+}
+
+#Sel .imgPiece p{
+  margin-top: 1rem;
+  text-align: end;
+  padding: 0 5%;
+}
+
+
+.espText{
+  margin-top: 25px;
+  font-size: 2em;
+}
+
+.espText2{
+  font-family: serif;
+  line-height: 20px;
+  font-size: 1.1rem;
+}
+
+
+#contentHomeLV .card{
+  border: none;
+}
+
+#contentHomeLV .card-body{
+  padding-top: 6px;
+  padding-left: 3px;
+}
+
+#contentHomeLV .card img{
+  border-radius: 0;
+}
+
+#contentHomeLV .card h5{
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #4f89b9;
+}
+
+
+#contentHomeLV .card p{
+  font-size: 1.2rem;
+  line-height: 20px;
+  letter-spacing: -1px;
+}
+
+.publ{
+  background-color: #e1e1e1;
+}
+
+
+
+
+#ap2{
+  margin-top: 20px;
+}
+
+
+/* Add more blocks button */
+
+.addMoreButton p{
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+.addMoreButton span{
+  color: #001c4c;
+    padding: 5px 16px;
+    cursor: pointer;
+    border: 1px solid #001c4c;
+    border-radius: 90%;
+    font-size: 2rem;
+}
+
+
+
+
+/* provisional bug fix */
+
+#esp{
+  max-height: 130px;
+
+}
+
+
+#geoBlock{
+  margin-bottom: 40px;
+  
+}
+
+
+
+#notes{
+  padding-top: 30px;
+  border-top: 1px dotted grey;
+}
+
+#notesOut{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#notesOutT{
+  font-family: 'TiemposText-Regular', serif;
+}
+
+
+
+
+/* END OF NEW STYLES */
+
+
+
+
+
+
+
+#pGrid{
+  margin: 20px;
+}
+
+#container .bg-light{
+  background-color: #5d5e5e !important;
+}
+
+
+
+
+
+
+
+#generateP{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-grey{
+  color: #fff;
+  background-color:#3f3f3f;
+  border-color: #a8a8a8;
+  text-transform: uppercase;
+}
+
+.btn-grey:hover {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+
+#generateP button{
+  font-weight: 800;
+  letter-spacing: .8px;
+}
+
+
+#apPlant{
+  text-align: end;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  
+}
+
+#apPlant .form-check-label{
+  /* font-family:'Times New Roman', Times, serif; */
+  text-transform: uppercase;
+  color: #001c4c;
+}
+
+
+
+
+#container .border{
+  border: 3px solid #a7a7a7 !important;
+  text-align: end;
+}
+
+
+
+
+
+/* Apertura 1 bis */
+
+#ap1Bis{
+  display: none;
+}
+
+
+
+
+/* Final buttons */
+
+#finalButtons{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+#bExtra, #bOutput{
+  text-align: center;
+}
+
+#finalButtons button{
+  font-size:.98rem;
+  border: 2px solid #ffffff;
+  background-color: #001c4c;
+  text-transform: uppercase;
+  color:#ffffff;
+  -webkit-box-shadow: 4px 3px 10px 1px rgba(0,0,0,0.87);
+  -moz-box-shadow: 4px 3px 10px 1px rgba(0,0,0,0.87);
+  box-shadow: 4px 3px 10px 1px rgba(0,0,0,0.87);
+}
+
+#finalButtons button:hover {
+  font-size: 1.1rem;
+}
+
+
+
+/* Extra Blocks */
+
+
+
+#extraBlocksSelect{
+  display: none;
+  margin: 0 auto;
+  max-width:400px;
+}
+
+
+
+/* Print extra blocks */
+
+#printExtraBlocks{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#printExtraBlocks .row{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+/* OUTPUT */
+
+#output{
+  display: none;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#output h3{
+    margin: 0 20%;
+    padding-bottom: 7px;
+    border-bottom: 1px dotted grey;
+   
+}
+
+#outTable{
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  background: #e4e4e478;
+}
+
+.plantillaAp{
+  text-transform: uppercase;
+  color: #c70303;
+}
+
+.field1{
+  background: #001c4c;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.field2{
+  margin-left: 10px;
+  font-size: 1.3rem;
+}
+
+.field3{
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+
+
+
